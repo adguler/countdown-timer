@@ -13,7 +13,7 @@ const updateCountdown = () => {
     const seconds = Math.floor((timeleft % (1000 * 60)) / 1000);
 
     // Generate and display the countdown string
-    document.getElementById('countdownDisplay').innerHTML = ` ${days}d ${hours}h ${minutes}m ${seconds}s`;
+    document.getElementById('countdownDisplay').innerHTML = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 };
 
 // Call updateCountdown immediately to initialize the display and set interval to update
